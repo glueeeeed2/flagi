@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void isCorrect(View view) {
-        Toast.makeText(MainActivity.this, "Ten kolor nalezy do flagi Polski!!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, R.string.ostrzezenie, Toast.LENGTH_SHORT).show();
     }
 
 
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(INVISIBLE);
         counter++;
         if (counter >= 4) {
-            textViewQuestion.setText("Brawo to jest flaga Polski!");
+            textViewQuestion.setText(R.string.podsumowanie);
         }
     }
 

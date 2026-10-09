@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Banderas</string>
+
+    <string name="polecenie">Elige colores que no aparacen</string>
+    <string name="ostrzezenie">Este color aparece en Polonia de bandera</string>
+    <string name="podsumowanie">Muy bien!</string>
+</resources>

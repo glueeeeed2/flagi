@@ -24,7 +24,7 @@
         android:layout_margin="16dp"
         android:padding="8dp"
         android:textColor="@color/white"
-        android:text="Wybierz kolory ktorych nie ma w fladze Polski" />
+        android:text="@string/polecenie" />
 
 
     <LinearLayout
